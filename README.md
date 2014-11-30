@@ -27,9 +27,11 @@ And i think you're right. Starting from the things you already now, i like
 to try to give you some insights on the 'more' there is in programming. To
 me it is not stuff like knowing a specific library or framework, knowing 
 every dirty trick you can play in a certain language or having the solution
-to every problem you want to solve in you language of choice. All those are
-nice to haves to and it could be worthy to spend some time on those things,
-but i think they are not really necessary to be a good programmer.
+to every problem you want to solve in you language of choice. 
+
+All that knowledge is nice to have and it could be worth to spend some time 
+on those things. But i think they are not really necessary to be a good 
+programmer.
 The first is almost always mitigated by the documentation of the framework
 or library. If you have an idea of the problems, the library or framework
 wants to solve, it should be easy to understand its interface and search the
