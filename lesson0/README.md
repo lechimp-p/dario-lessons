@@ -55,9 +55,9 @@ So start by:
   your command line. Create a new file named SOLUTION.md in this folder and put 
   it under git control. For every item on this list, write some sentences on what
   you learned in the editor you chose previously. If some commands on the terminal 
-  were involved, note them and their purpose. If come acronym or jargon was involved,
-  write down a concise definition using git markdown style. Commit your changes to 
+  were involved, note them and their purpose. If some acronym or jargon was involved,
+  write down a concise definition. Use git markdown style. Commit your changes to 
   the file at least after every paragraph. Make sure you pick a meaningfull commit 
-  message. Use git pull, to get changes i made in the meantime. Then check weather 
+  message. Use git pull, to get changes i made in the meantime. Then check whether 
   i added you as a contributor to this repository and push your changes back on the 
   github server.
