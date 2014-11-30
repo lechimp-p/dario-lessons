@@ -59,5 +59,5 @@ So start by:
   write down a concise definition. Use git markdown style. Commit your changes to 
   the file at least after every paragraph. Make sure you pick a meaningfull commit 
   message. Use git pull, to get changes i made in the meantime. Then check whether 
-  i added you as a contributor to this repository and push your changes back on the 
+  i added you as a collaborator to this repository and push your changes back on the 
   github server.
