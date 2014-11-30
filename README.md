@@ -32,11 +32,13 @@ to every problem you want to solve in you language of choice.
 All that knowledge is nice to have and it could be worth to spend some time 
 on those things. But i think they are not really necessary to be a good 
 programmer.
+
 The first is almost always mitigated by the documentation of the framework
 or library. If you have an idea of the problems, the library or framework
 wants to solve, it should be easy to understand its interface and search the
 docu for the stuff you want. If thats not the case, you might just want to
 pick another one.
+
 The second is also a nice to have, since there is a lot of interesting things
 to explore in this field in almost every language i saw. I found it especially
 interesting to look into that stuff in python. But you should not rely on 
@@ -44,6 +46,7 @@ those tricks. They could only be played in one language, they often are hard
 to maintain, debug and even hard to understand for your collaborators. So in 
 this lessons, we'll try to stick to stuff, that could be reused in different
 languages.
+
 And for the third: Well, most of the time (read like: always) you're not the 
 first person encountering a problem. So Google and StackOverflow are your
 friends. No need to know everything by heart.   
