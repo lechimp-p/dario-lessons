@@ -53,5 +53,6 @@ So let's have a go:
   say: 'yes, this requirement is met' or 'no, that one is not met' and actually 
   agree on this point. We should be able to use it as a reference in the process
   leading to a working piece of software. That means: format it, structure it, 
-  turn it from a draft into a nice paper. Push it so i can make my (hopefully 
-  final) changes.
+  turn it from a draft into a nice paper. You took notes in the previous step,
+  right? Push your changes. Maybe we'll need to play some further ping pong with
+  the file if i disagree with some contents.
