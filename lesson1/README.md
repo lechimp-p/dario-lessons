@@ -32,21 +32,22 @@ So let's have a go:
   control. When writing to it, format your text in markdown and remind yourself 
   of commiting it with meaningful messages at least whenever you made a self 
   consistent change. You should be doing this with every \*.md file (and almost
-  all other files as well) from now on, but i will give you a reminder some times.
+  all other files we'll be editing as well) from now on, but i will give you a
+  reminder some times.
 * Write down all requirements for the ToDo-Application i gave you so far. Remind
   yourself that requirements could be given explicitly and implicitly. Push the
   stuff to the repo. I'll look at it, maybe add some things and push it back. 
   Watch the repo on github to get notified when i made my changes. 
 * Write down your questions about the requirements. What do you need to know to
-  feel confident about understanding the requirement? This is not about how you
-  could implement the requirement, we'll get to that part later.
+  feel confident about understanding the requirements? This is not about how you
+  could implement the requirements, we'll get to that part later.
 * Prepare yourself for a phone call with me. Make an appointment. Think about 
   the order in which we'll talk about your questions. Format the REQUIREMENTS.md
   accordingly. I'll like to look at it while we're telcoing. Prepare yourself
   for taking notes during the call. When the time comes, call me, ask questions,
   take notes. After the call we should both be confident that you'll write exactly
   the program i asked you for.
-* Prepare the REQUIREMENTS.md file for it's future use as a reference to the 
+* Prepare the REQUIREMENTS.md file for it's future use as a memento to the 
   commitment on our project. That is: we should both be able to understand in
   in, say, half a year without doubt. We should both be able to point at it and
   say: 'yes, this requirement is met' or 'no, that one is not met' and actually 
