@@ -26,6 +26,13 @@ requirements are essential and which are more accidental and how much details in
 the requirements are good for the project. Especially when you're coding for
 someone who gives you money.
 
+The requirements will be crucial in many ways during the project. They will be
+the starting point for finding an appropriate architecture for your application.
+You derive tests, whether manual or automated, from them. You need them for a
+reliable communication with your customers or collaborators. They help you to 
+stay focused on what the project is about. For all this, clear and precise
+statements about the requirements are valuable.
+
 So let's have a go:
 
 * Create a file called REQUIREMENTS.md in this folder and put it under version
