@@ -34,10 +34,10 @@ So let's have a go:
   consistent change. You should be doing this with every \*.md file (and almost
   all other files we'll be editing as well) from now on, but i will give you a
   reminder some times.
-* Write down all requirements for the ToDo-Application i gave you so far. Remind
-  yourself that requirements could be given explicitly and implicitly. Push the
-  stuff to the repo. I'll look at it, maybe add some things and push it back. 
-  Watch the repo on github to get notified when i made my changes. 
+* Write down all requirements for the ToDo-Application i gave you so far in that
+  file. Remind yourself that requirements could be given explicitly and implicitly.
+  Push the stuff to the repo. I'll look at it, maybe add some things and push it 
+  back. Watch the repo on github to get notified when i made my changes. 
 * Write down your questions about the requirements. What do you need to know to
   feel confident about understanding the requirements? This is not about how you
   could implement the requirements, we'll get to that part later.
