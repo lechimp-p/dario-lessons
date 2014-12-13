@@ -15,4 +15,4 @@ My first question here is: Will Apache have to do anything with the *TDL*? Becau
 
 **5.** Making an appointment for a phone call reminds me of the fact that our only communication via text right now are SMS (and your girlfriends fb, which is kinda lame for everyone. or at least a little unprofessional) and they are costy. We can stay at SMS since they dont cost too much, but being the modern guys that we are, I think we can find a better way.
 
-- [] find better way of communication
+- [ ] find better way of communication
