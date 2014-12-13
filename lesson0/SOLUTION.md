@@ -1,3 +1,5 @@
+Hey Dario, please format according to https://help.github.com/articles/markdown-basics/ to make this stuff look nice.
+
 1.) So I downloaded the current version of Ubunto as an .iso file and after some search I was able to install it on a USB-stick via some strange looking program. My first attempt to reboot the computer and boot Ubuntu from the stick was successfull. That was the last successfull moment for some time. After some stuff that doesnt really matter and is part of the past, I am now able to choose win7 or Ubuntu by just connecting the stick before booting or not. 
 Also, my internet immediately worked and as far as Ubuntu´s responsibility goes, everything works just fine (I guess).
 
