@@ -1,21 +1,53 @@
-**1.** The first thing we ll need for sure is a :camel:
+#### Comment about last version
 
-**2.** I d say the second most important thing (after the :camel:) is a space in the web where we can put down and use our *TDL*. We chose [uberspace] (http://boene.kochab.uberspace.de/TDL.html) as our webhost.
+I wasn t planing on working like this all the time, but it came natural as 
+I was trying out the markup stuff. Sorry, no more jokery.
+Regarding the length of 80 chars per line: thats unusual for me, but I ll
+try to make the program jump to the next line by itself after 80 chars.
 
-**3.** To build our *TDL* we need people (people = me, I guess) to be able to view the things that are to do, add new stuff and erase entrys from the list. Thats kinda saying:
+So back to the most important matter: The TDL and its requirements.
 
-> Gimme a pen `n a napkin buddy and I ll make ya a frikin to-do-list in notime!
+### **Thoughts about TDL**
 
-This guy actually forgot to mention the rubber, but thats just because he had a couple too many drinks ...
-Our digital pen, napkin and rubber will be php and html, coupled with MySQL, as far as I know.
+- We need webspace for our database and the page itself. In our case this
+  is *[uberspace]* (http://boene.kochab.uberspace.de/). Of course there needs to
+  be at least some space that is accessable for both of us.
 
-My first question here is: Will Apache have to do anything with the *TDL*? Because it will run on uberspace and not my own computer. Do I have some missconception or was Apache "*just*" installed because its generally important and handy if you wanna work and develop stuff which is connected to the internet?
+- Apache will work as our webserver and like you said, I m gonna learn how to
+  use it correctly soon.
 
-**4.** When it comes to deadlines, I d say you re obv the one that has to answer that requirement.
+- Php will work as our script language. This means it ll take data from the 
+  SQL database if demanded and build an html page which will then be send to 
+  the client.
 
-**5.** Making an appointment for a phone call reminds me of the fact that our only communication via text right now are SMS (and your girlfriends fb, which is kinda lame for everyone. or at least a little unprofessional) and they are costy. We can stay at SMS since they dont cost too much, but being the modern guys that we are, I think we can find a better way.
+- We should install some kind of security, since we dont want random people to
+  be able to look up our private schedules.
 
-- [ ] find better way of communication
+- There could be a script that sends an email or so, reminding us of some 
+  appointment. It would be handy to be able to configure this script for every
+  single entry, so that it will i.e. send the mail 1 day in advance or maybe 
+  a week if necessary. Sending mails to multiple people would be an idea too.
+
+- The graphical part of the TDL should imo be simple and "robust". I have never
+  been a fan of fancy looks for kinda practical jobs. Its unnecessary, takes 
+  time to build and has more potential to glitch in some way, I guess.
+
+- The point of communication will be part of our next talk, but one important
+  thing for me would be a quicker, less formal "place" to leave short messages.
+  Like a facebook, IRC, ICQ kinda chat. Since I think the more flexible we are
+  on choosing the way of communication, the more effective it gets.
+
+For now thats all the important stuff that comes to mind. I hope this version 
+of the requirements listing is more the way you wanted it to be!
+
+I had some rather busy days and wont be at home today either, but tomorrow I d
+be *available from 5 pm* if you d like to go for the next *phone call*. I hope
+you ll not be too hard on my about the notetaking and what you wrote about how
+to have a "correct" phone call. That has never been a strength of mine and its
+even more unusual while being on the phone (I just know it from meetings ...).
+But of course I ll try and look how natural it comes.
+  
+-------------------------------------------------------------------------------
 
 ### Notes and Advice
 
