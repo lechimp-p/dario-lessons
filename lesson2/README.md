@@ -29,3 +29,12 @@ instead try to give some more rationales why it is usefull to at least follow an
 of them and why it is even more beneficial to think about which ones are actually
 fitting the project.
 
+If a program is implemented based on clear design and principles it will be a 
+lot easier to work on it with others. This holds, when many people actually
+implement stuff simultaneously, but it also holds, when the 'other' you are
+working with is you, some month ago. You'll find it easier to read code, that
+you didn't write or don't remember. When writing new code, you do not have to
+start from first principles, but already have some patterns and idioms ready to
+use. It is easier to use code from other people, perhaps even without the need
+to consult the documentation to often when interfaces adhere to some convention.
+
