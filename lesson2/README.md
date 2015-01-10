@@ -45,3 +45,14 @@ easier to think about a problem in terms of reliably abstrations and the code
 you are writing will express your intentions more clearly. When your program is
 structured appropriately, you'll be able to implement automated tests that will
 find bugs for you and give you confidence that your program works as expected.
+
+Many of the problems you are facing during development of computer programs will
+be looking overwhelmingly complex when you first see them. You then usually start
+to divide and hopefully conquer, that is, break your programs in pieces until the
+complexity is low enough to solve them one after another. This will not always 
+work, as you could choose a division of you problem that actually makes it harder
+to solve the problem, not easier as it's supposed to be. This is where a lot of
+well known design patterns and principles come in handy, as they encode best 
+practices in development with known strenghts and maybe weaknesses you can reason
+about. There also is the opposite site, as there are well known antipatterns that
+you should avoid.
