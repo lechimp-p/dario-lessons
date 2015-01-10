@@ -38,3 +38,10 @@ start from first principles, but already have some patterns and idioms ready to
 use. It is easier to use code from other people, perhaps even without the need
 to consult the documentation to often when interfaces adhere to some convention.
 
+The design of a program could also lead to less bugs beeing introduced during
+development. This is true on different levels. When programming clear and simple
+abstractions help you to focus on the actual problem to solve. You will find it
+easier to think about a problem in terms of reliably abstrations and the code
+you are writing will express your intentions more clearly. When your program is
+structured appropriately, you'll be able to implement automated tests that will
+find bugs for you and give you confidence that your program works as expected.
