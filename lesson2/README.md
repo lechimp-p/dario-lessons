@@ -59,3 +59,14 @@ practices in development with known strenghts and maybe weaknesses you can reaso
 about. There also is the opposite site, as there are well known antipatterns you 
 should avoid.
 
+When your projects ain't an one-off program that you'll never modify or touch
+again (like virtually always), the design of it could make it easier to modify or
+extend it in the future. Often the reusability of code is emphasized, and i also
+think it has its value. The complementary aim of refineability to me seems a 
+little undervalued. Writing code that you could modify often has more value then
+writing code, that is general enough to be reused. While the former is about an
+actually working piece of software (the program you are developing), the latter 
+is about a future, where you would need the same functionally somehow different
+(contradiction intended) and that might never happen. So stay away from the 
+seduction to overgeneralize or write a framework when you are actually writing an
+application.
