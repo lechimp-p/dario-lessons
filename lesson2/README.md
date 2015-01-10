@@ -68,5 +68,5 @@ writing code, that is general enough to be reused. While the former is about an
 actually working piece of software (the program you are developing), the latter 
 is about a future, where you would need the same functionally somehow different
 (contradiction intended) and that might never happen. So stay away from the 
-seduction to overgeneralize or write a framework when you are actually writing an
-application.
+seduction to overgeneralize or write a framework when you actually should be 
+writing an application.
