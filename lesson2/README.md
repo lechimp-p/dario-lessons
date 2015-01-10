@@ -45,6 +45,8 @@ easier to think about a problem in terms of reliably abstrations and the code
 you are writing will express your intentions more clearly. When your program is
 structured appropriately, you'll be able to implement automated tests that will
 find bugs for you and give you confidence that your program works as expected.
+More over, a clean design will help you to find the cause for a bug, once it is
+discovered.
 
 Many of the problems you are facing during development of computer programs will
 be looking overwhelmingly complex when you first see them. You then usually start
@@ -54,5 +56,6 @@ work, as you could choose a division of you problem that actually makes it harde
 to solve the problem, not easier as it's supposed to be. This is where a lot of
 well known design patterns and principles come in handy, as they encode best 
 practices in development with known strenghts and maybe weaknesses you can reason
-about. There also is the opposite site, as there are well known antipatterns that
-you should avoid.
+about. There also is the opposite site, as there are well known antipatterns you 
+should avoid.
+
