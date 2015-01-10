@@ -70,3 +70,36 @@ is about a future, where you would need the same functionally somehow different
 (contradiction intended) and that might never happen. So stay away from the 
 seduction to overgeneralize or write a framework when you actually should be 
 writing an application.
+
+As we will be meeting to discuss the design of our application, the tasks in
+this lesson are preparative. After doing them you should have a general overview
+of problem space, you should be able to name some patterns and principles and 
+understand and explain some of them as well. The following is far away from a 
+complete list.
+
+* Let's start with some high level principles. Google or wikipedia them, find out
+  what the acronyms mean and what the rationale behind them is:
+    * KISS
+    * DRY
+    * YAGNI
+    * SOLID
+    * GRASP
+* Search for UML (Unified Modelling Language), read a little about it and look
+  at some diagrams. Try to understand, why there are so many different kinds of
+  diagrams.
+* Try to understand what these things are and how they relate to each other:
+    * control flow
+    * entity relationship model
+    * data model
+    * state model
+    * class model
+    * actor model
+* Go to the wikipedia page for [software design patterns](http://en.wikipedia.org/wiki/Software_design_pattern)
+  and skim over the stuff. Then give at least three of the patterns a closer
+  read. Understand the problem they solve and how they solve it. 
+* Read closely about the following patterns, as we will likely be using them in
+  our application:
+    * Model-View-Controller
+    * Command-Query Separation
+    * Dependency Injection
+    * Factory
