@@ -97,6 +97,9 @@ complete list.
 * Go to the wikipedia page for [software design patterns](http://en.wikipedia.org/wiki/Software_design_pattern)
   and skim over the stuff. Then give at least three of the patterns a closer
   read. Understand the problem they solve and how they solve it. 
+* Search the internet for software development anti-patterns and read a little.
+  Try to understand at least 3 anti-patterns specifically. Why are they considered
+  anti-patterns?
 * Read closely about the following patterns, as we will likely be using them in
   our application:
     * Model-View-Controller
