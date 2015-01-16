@@ -2,18 +2,18 @@
 
 
 
-To-Do-List
+## **To-Do-List**
 
 
 
 --------------------------------------------------------------------------------
 
-Planing & Introduction: 
+#### **Planing & Introduction:** 
 
 Richard Klees
 Dario Abu Shibika
 
-Date:
+#### **Date:**
 
 16.1.2015
 
@@ -21,15 +21,15 @@ Date:
 
 
 
-1.) Used Software
+#### **1.) Used Software**
 
-PHP 5.6.2
-MySQL 5.1.73
-Apache Webserver 2.2
+* PHP 5.6.2
+* MySQL 5.1.73
+* Apache Webserver 2.2
 
 
 
-2.) Intent
+#### **2.) Intent**
 
 To plan, construct and install a to-do-list using a LAMP (Linux, Apache, MySQL, PHP) setup.  
 
@@ -37,7 +37,7 @@ This project additionally aims on the learning progress and teamwork skills to b
 
 
 
-3.) Features
+#### **3.) Features**
 
 The list is going to be accessible online and capable of handling multiple accounts for different people via a username-password system. An online database is going to store the necessary data. 
 Its core capability is about arranging all kinds of subjects that the user wants to take care of. This arranging includes creating entries in the list, adding notes or features for every individual entry, possibly sorting the entries depending on i.e. the date it was created or a  catchword system (i.e. „school“, „job“, „household“ etc).
