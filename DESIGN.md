@@ -1,3 +1,11 @@
+# Datamodel
+
+User | (m:n) | ToDoList | (m:n) | Item
+-----|-------|----------|-------|---------
+username (string, unique) || title (string) || task (string)
+password (string) || || details (string, nullable)
+email (string, unique) || || progress (uint)
+
 # Layers
 
 ## User Interface Layer
