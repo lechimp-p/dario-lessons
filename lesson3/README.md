@@ -14,10 +14,11 @@ PHP keep the following in mind: There is a difference between the general
 OOP-ideas and their implementation in PHP.
 
 The keyword 'class' is used in many languages and refers to the OOP-concept 
-'class'. Despite that, there will be differences in the actual semantics the
+Class. Despite that, there will be differences in the actual semantics the
 construct has in different languages. There is a difference between the concept
 and its implementation. So be a little cautious when you try to apply the things
-you learned about classes in PHP to other languages, and vice versa.  
+you learned about classes in PHP to other languages, and vice versa. What they
+have in common might be the thing OOP really 'is'.  
 
 Second thing is estimates. It's a really good thing to be able to estimate how
 long it will take to implement something. Which is also true for many other task
@@ -44,7 +45,9 @@ Your code will contain a lot of things that could be improved or implemented
 differently. When your a novice programmer, a review is an incredible possibility
 to learn stuff from more experienced people. They are somehow obliged to tell
 you what would be better if they are critizing your code. Make sure you fully
-understand their proposed solutions and then implement them on your own. 
+understand their proposed solutions and then implement them on your own. Don't
+be afraid to make mistakes in the first place, as you will have the opportunity
+to learn from them. 
 
 As you level up and get more confidence in what you are doing, a review might
 be a good occasion to discuss patterns or algorithms with others or derive a
@@ -62,7 +65,7 @@ But now: CODING!! WEEEEEEEEEEEEEEEEEEE!
 * Read about the following constructs and keywords from PHP and understand their
   purpose: class, interface, trait, abstract, public, protected, private, final,
   implements, extends.
-* Pick one of the three domain-classes from our design and create a php-File with
+* Pick one of the three domain-classes from our design and create a php-file with
   the same name. Put it under VC. Remind yourself to commit your changes 
   frequently.
 * Write down the bare bones of the class. That is: the class, including all
