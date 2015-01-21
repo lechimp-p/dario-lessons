@@ -70,5 +70,6 @@ But now: CODING!! WEEEEEEEEEEEEEEEEEEE!
   frequently.
 * Write down the bare bones of the class. That is: the class, including all
   public methods of the class, including documentation but excluding implementation
-  and other internals. Push your changes to GitHub, call me and have your first 
-  code review. I'll add new tasks afterwards. 
+  and other internals. Track how many time you actually worked on the code. Push
+  your changes to GitHub, call me and have your first code review. I'll add new 
+  tasks afterwards. 
