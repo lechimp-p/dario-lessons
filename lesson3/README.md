@@ -73,3 +73,12 @@ But now: CODING!! WEEEEEEEEEEEEEEEEEEE!
   and other internals. Track how many time you actually worked on the code. Push
   your changes to GitHub, call me and have your first code review. I'll add new 
   tasks afterwards. 
+* Apply the things we talked about to your code: indentation, names, parameters,
+  id, folders, ...
+* Read about the Doxygen-style for documentation and then use it to document your
+  class and methods thoroughly.
+* Read about type hinting in PHP. Where would we want to use it in our code?
+* Read about primitive obsession. Why is it a general problem? How could we avoid
+  it?
+* Push your changes to github and prepare to answer questions about the last two
+  items on our phone call.
