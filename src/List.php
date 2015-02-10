@@ -1,44 +1,89 @@
-    <?php
-		class Lists{ #this is the class which defines the structure, attributes and functions of created ToDoLists
-			public function __construct(){ #defines the basic state of a new created list (public?)
-				
-			}
+/**
+* @file List.php
+*
+* @brief Contains the class "ToDoList" and defines its structure and behaviour.
+*/
+
+<?php
+/**
+* @class ToDoList 
+*
+* @brief A ToDoList belongs to 1 or multiple users and contains tasks
+*
+* The ToDoList-class is the core class which can be created by a user. It needs a title and tasks can be added, altered or removed from it. It can potentially be accessible to multiple users which could then have different levels of rights on the list.
+*/
+
+class ToDoList { 
+	/**
+	* @brief This is the constructor function of the ToDoList-class
+	*
+	* The construct-function needs 1 or more usernames, 1 title and 0 or more tasks as arguments to be executed and create a new ToDoList-object. 
+	*/ 
+    public function __construct(...$task, ...$username, $title) { 
 			
-			public function __destruct(){ #defines the way a list is deleted (public?)
+    }
+	
+	/**
+	* @brief Setter for the title of a ToDoList-object.
+	*
+	* The setName-function needs a title as argument and assigns it to the ToDoList-object.
+	*/ 		
+    public function setName($title) { 
 				
-			}
-			
-			public function setName(){ #give the list a name
+    }
+		
+	/**
+	* @brief Getter for the title of a ToDoList-object
+	*
+	* The getName-function returns the title of a ToDoList-object.
+	*/ 	
+    public function getName() { 
 				
-			}
-			
-			public function getName(){ #get the lists name
+    }
+		
+	/**
+	* @brief Adds a new task to a ToDoList.
+	*
+	* The addItem-function needs 1 task argument, (aufbau der details?) and (aufbau des progress?). It adds the Item defined by these arguments to a ToDoList.
+	*/ 	
+    public function addItem($task, $detail, $progress) { 
 				
-			}
-			
-			public function setNewItem(){ #add a new item to the list
+    }
+	
+	/**
+	* @brief Returns the items of a ToDoList. (auf welche art und weise?)
+	*
+	* 
+	*/ 
+    public function getItems() { 
 				
-			}
-			
-			public function getItems(){ #get all the items from a list
+    }
+	
+	/**
+	* @brief Removes an item from a ToDoList.
+	*
+	* (hier ein bisschen unsicher wegen genauer funktionsweise der IDs)
+	*/ 
+    public function removeItem($itemID) { 
 				
-			}
+    }
 			
-			public function changeItem(){ #change any attribute of an item (or will that be part of the item class itself?)
+	/**
+	* @brief Associates an additional user with the ToDoList.
+	*
+	* Needs 1 username as an argument and gives him access to the ToDoList. (verschiedene level an rechten?)
+	*/ 		
+    public function addUser($username) { 
+				 
+    }
+			
+	/**
+	* @brief Removes access to the ToDoList for a user.
+	*
+	* Needs 1 (macht es sinn mehrere namen zuzulassen?) username and restricts him from accessing the ToDoList. 
+	*/ 		
+    public function removeUser($username) { 
 				
-			}
-			
-			public function deleteItem(){ #delete an item
-				
-			}
-			
-			public function addUser(){ #add access to the list for an additional user
-				
-			}
-			
-			public function deleteUser(){ #delete access to the list for a user that is not the creator of the list (? should creator be deletable?))
-				
-			}
-			
-		}
-	?>
+    }		
+}
+?>
