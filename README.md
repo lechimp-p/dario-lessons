@@ -1,5 +1,5 @@
-Dear Richard,
-===========
+
+Dear God2, here God1,
 
 you want to learn programming.
 
