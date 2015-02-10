@@ -82,3 +82,6 @@ But now: CODING!! WEEEEEEEEEEEEEEEEEEE!
   it?
 * Push your changes to github and prepare to answer questions about the last two
   items on our phone call.
+* Write the two missing classes in the same style as the ToDoList class. Remind
+  yourself of commiting your changes frequently. Push your changes to GitHub.
+  Call me.
