@@ -15,7 +15,7 @@
  * be accessible to multiple users.
  */
 
-require_once("IdTypes.php");
+require_once("Ids.php");
 
 class ToDoList { 
 	/**
