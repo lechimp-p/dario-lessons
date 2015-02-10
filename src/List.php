@@ -21,7 +21,7 @@ class ToDoList {
 	*
 	* The construct-function needs 1 or more usernames, 1 title and 0 or more tasks as arguments to be executed and create a new ToDoList-object. 
 	*/ 
-    public function __construct(ToDoList $id, ...$task, ...$username, $title) { 
+    public function __construct(ToDoListId $id, ...$task, ...$username, $title) { 
 			
     }
 	
