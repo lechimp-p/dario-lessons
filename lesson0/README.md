@@ -1,5 +1,3 @@
-one line!
-
 Setting up the environment
 ==========================
 
@@ -62,4 +60,4 @@ So start by:
   the file at least after every paragraph. Make sure you pick a meaningfull commit 
   message. Use git pull, to get changes i made in the meantime. Then check whether 
   i added you as a collaborator to this repository and push your changes back on the 
-  github server. wursttest
+  github server.
