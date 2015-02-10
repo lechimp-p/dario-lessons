@@ -1,4 +1,4 @@
-Dear Dario,
+Dear Richard,
 ===========
 
 you want to learn programming.
