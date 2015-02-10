@@ -13,13 +13,15 @@
 * The ToDoList-class is the core class which can be created by a user. It needs a title and tasks can be added, altered or removed from it. It can potentially be accessible to multiple users which could then have different levels of rights on the list.
 */
 
+require_once("IdTypes.php");
+
 class ToDoList { 
 	/**
 	* @brief This is the constructor function of the ToDoList-class
 	*
 	* The construct-function needs 1 or more usernames, 1 title and 0 or more tasks as arguments to be executed and create a new ToDoList-object. 
 	*/ 
-    public function __construct(...$task, ...$username, $title) { 
+    public function __construct(ToDoList $id, ...$task, ...$username, $title) { 
 			
     }
 	
