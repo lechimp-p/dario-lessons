@@ -23,8 +23,8 @@ class ToDoList {
      * or more tasks as arguments to be executed and create a new ToDoList-object. 
      *
      * @param string         $name
-     * @param [ToDoItemId]   $items
-     * @param [UserId]       $users
+     * @param [ToDoItem]     $items
+     * @param [User]         $users
 	 */ 
     public function __construct(ToDoListId $id, $name, $items, $users) { 
 			
@@ -57,12 +57,12 @@ class ToDoList {
 	/**
 	 * @brief Adds a new task to a ToDoList.
 	 *
-	 * The addItem-function needs 1 task id as argument, It adds the Item 
+	 * The addItem-function needs 1 task as argument, It adds the Item 
      * defined by these arguments to a ToDoList.
      *
      * @return $this
 	 */ 	
-    public function addItem(ToDoItemId $item) { 
+    public function addItem(ToDoItem $item) { 
         			
     }
 	
@@ -71,14 +71,14 @@ class ToDoList {
 	 *
      * @return §this
 	 */ 
-    public function removeItem(ToDoItemId $itemID) { 
+    public function removeItem(ToDoItem $itemID) { 
 				
     }
 	
 	/**
 	 * @brief Returns the items of a ToDoList. 
 	 *
-     * @return [ToDoItemId] 
+     * @return [ToDoItem] 
 	 */ 
     public function getItems() { 
 				
@@ -87,29 +87,29 @@ class ToDoList {
 	/**
 	 * @brief Associates an additional user with the ToDoList.
 	 *
-	 * Needs a user id as argument and gives him access to the ToDoList. 
+	 * Needs a user as argument and gives him access to the ToDoList. 
      *
      * @return $this
 	 */ 		
-    public function addUser(UserId $user) { 
+    public function addUser(User $user) { 
 				 
     }
 			
 	/**
 	 * @brief Removes access to the ToDoList for a user.
 	 *
-	 * Needs user id as argument and forbids her to access the ToDoList. 
+	 * Needs user as argument and forbids her to access the ToDoList. 
      *
      * @return $this
 	 */ 		
-    public function removeUser(UserId $username) { 
+    public function removeUser(User $username) { 
 				
     }		
 
     /**
      * @brief Get all users who can access this list.
      *
-     * @return [UserId]
+     * @return [User]
      */
     public function getUsers() {
 
