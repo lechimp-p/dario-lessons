@@ -1,10 +1,11 @@
+<?php
+
 /**
 * @file List.php
 *
 * @brief Contains the class "ToDoList" and defines its structure and behaviour.
 */
 
-<?php
 /**
  * @class ToDoList 
  *
@@ -14,9 +15,6 @@
  * a title and tasks can be added, altered or removed from it. It can potentially
  * be accessible to multiple users.
  */
-
-require_once("Ids.php");
-
 class ToDoList { 
 	/**
 	 * @brief This is the constructor function of the ToDoList-class
@@ -117,4 +115,31 @@ class ToDoList {
 
     }
 }
+
+/**
+ * @class ToDoListID
+ *
+ * @brief Represents an id of a ToDoList.
+ *
+ * Wraps around integer.
+ */
+class ToDoListId {
+    protected $id; // int    
+
+    /**
+     * @param int $id
+     */
+    public function __construct($id) {
+        // ToDo: insert type check on id
+        $this->id = $id;
+    }
+
+    /**
+     * @brief Get the wrapped integer value.
+     */
+    public function value() {
+        return $this->id;
+    } 
+}
+
 ?>
