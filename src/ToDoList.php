@@ -30,7 +30,7 @@ class ToDoList {
 			
     }
 	
-	/**
+    /**
      * @brief Setter for the title of a ToDoList-object.
      *
      * The setName-function needs a title as argument and assigns it to the ToDoList
@@ -43,7 +43,7 @@ class ToDoList {
 				
     }
 		
-	/**
+    /**
      * @brief Getter for the title of a ToDoList-object
      *
      * The getName-function returns the title of a ToDoList-object.
@@ -54,7 +54,7 @@ class ToDoList {
 				
     }
 		
-	/**
+    /**
      * @brief Adds a new task to a ToDoList.
      *
      * The addItem-function needs 1 task as argument, It adds the Item 
@@ -66,7 +66,7 @@ class ToDoList {
         			
     }
 	
-	/**
+    /**
      * @brief Removes an item from a ToDoList.
      *
      * @return $this
@@ -75,7 +75,7 @@ class ToDoList {
 				
     }
 	
-	/**
+    /**
      * @brief Returns the items of a ToDoList. 
      *
      * @return [ToDoItem] 
@@ -84,7 +84,7 @@ class ToDoList {
 				
     }
 			
-	/**
+    /**
      * @brief Associates an additional user with the ToDoList.
      *
      * Needs a user as argument and gives him access to the ToDoList. 
@@ -95,7 +95,7 @@ class ToDoList {
 				 
     }
 			
-	/**
+    /**
      * @brief Removes access to the ToDoList for a user.
      *
      * Needs user as argument and forbids her to access the ToDoList. 
