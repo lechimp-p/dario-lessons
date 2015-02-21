@@ -1,10 +1,10 @@
 <?php
 
 /**
-* @file List.php
-*
-* @brief Contains the class "ToDoList" and defines its structure and behaviour.
-*/
+ * @file List.php
+ *
+ * @brief Contains the class "ToDoList" and defines its structure and behaviour.
+ */
 
 /**
  * @class ToDoList 
