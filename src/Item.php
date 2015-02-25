@@ -19,14 +19,16 @@ class Item {
 	/**
 	 * @brief This is the constructor function of the Item-class
 	 *
-	 * The construct-function needs 1 task, 0, 1 or multiple details and 0
-     * or 1 progress as arguments to be executed and create a new Item-object. 
+	 * The construct-function needs 1 ItemId, 1 task, 0, 1 or multiple details 
+	 * and 0 or 1 progress as arguments to be executed and create a new
+	 * Item-object. 
      *
+	 * @param [ItemId]   $id
      * @param string     $task
      * @param string     $detail
      * @param string     $progress
 	 */ 	
-	public function __construct ($task, $detail, $progress) {
+	public function __construct (ItemId $id, $task, $detail, $progress) {
 		
 	}
 	
@@ -106,7 +108,7 @@ class Item {
 /**
  * @class ItemID
  *
- * @brief Represents an id of an Iter.
+ * @brief Represents an id of an Item.
  *
  * Wraps around integer.
  */

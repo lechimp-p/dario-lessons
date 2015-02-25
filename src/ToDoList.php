@@ -22,6 +22,7 @@ class ToDoList {
 	 * The construct-function needs 1 or more usernames, 1 title and 0
      * or more tasks as arguments to be executed and create a new ToDoList-object. 
      *
+	 * @param [ToDoListId]   $id
      * @param string         $name
      * @param [ToDoItem]     $items
      * @param [User]         $users

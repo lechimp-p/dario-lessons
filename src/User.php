@@ -19,15 +19,16 @@ class User {
 	/**
 	 * @brief This is the constructor function of the User-class
 	 *
-	 * The construct-function needs 1 username, 1 password and 1 email as 
-     * arguments to be executed and create a new User-object. 
+	 * The construct-function needs 1 UserId, 1 username, 1 password and 1 email
+	 * as arguments to be executed and create a new User-object. 
      *
+	 * @param [UserId]       $id
      * @param string         $username
      * @param [Password]     $password
      * @param [EMail]        $email
 	 */ 
-	public function __construct ($username, $password, $email)
-	
+	public function __construct (UserId $id, $username, Password $password, EMail $email)
+    	
 	}
 	
 	/**
