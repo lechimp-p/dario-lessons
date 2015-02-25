@@ -1,10 +1,10 @@
 <?php
 
 /**
-* @file List.php
-*
-* @brief Contains the class "ToDoList" and defines its structure and behaviour.
-*/
+ * @file List.php
+ *
+ * @brief Contains the class "ToDoList" and defines its structure and behaviour.
+ */
 
 /**
  * @class ToDoList 
@@ -16,10 +16,10 @@
  * be accessible to multiple users.
  */
 class ToDoList { 
-	/**
-	 * @brief This is the constructor function of the ToDoList-class
-	 *
-	 * The construct-function needs 1 or more usernames, 1 title and 0
+    /**
+     * @brief This is the constructor function of the ToDoList-class
+     *
+     * The construct-function needs 1 or more usernames, 1 title and 0
      * or more tasks as arguments to be executed and create a new ToDoList-object. 
      *
 	 * @param [ToDoListId]   $id
@@ -31,10 +31,10 @@ class ToDoList {
 			
     }
 	
-	/**
-	 * @brief Setter for the title of a ToDoList-object.
-	 *
-	 * The setName-function needs a title as argument and assigns it to the ToDoList
+    /**
+     * @brief Setter for the title of a ToDoList-object.
+     *
+     * The setName-function needs a title as argument and assigns it to the ToDoList
      * -object.
      *
      * @param string    $title
@@ -44,10 +44,10 @@ class ToDoList {
 				
     }
 		
-	/**
-	 * @brief Getter for the title of a ToDoList-object
-	 *
-	 * The getName-function returns the title of a ToDoList-object.
+    /**
+     * @brief Getter for the title of a ToDoList-object
+     *
+     * The getName-function returns the title of a ToDoList-object.
      *
      * @return string 
 	 */ 	
@@ -55,10 +55,10 @@ class ToDoList {
 				
     }
 		
-	/**
-	 * @brief Adds a new task to a ToDoList.
-	 *
-	 * The addItem-function needs 1 task as argument, It adds the Item 
+    /**
+     * @brief Adds a new task to a ToDoList.
+     *
+     * The addItem-function needs 1 task as argument, It adds the Item 
      * defined by these arguments to a ToDoList.
      *
      * @return $this
@@ -67,28 +67,28 @@ class ToDoList {
         			
     }
 	
-	/**
-	 * @brief Removes an item from a ToDoList.
-	 *
-     * @return §this
+    /**
+     * @brief Removes an item from a ToDoList.
+     *
+     * @return $this
 	 */ 
     public function removeItem(ToDoItem $itemID) { 
 				
     }
 	
-	/**
-	 * @brief Returns the items of a ToDoList. 
-	 *
+    /**
+     * @brief Returns the items of a ToDoList. 
+     *
      * @return [ToDoItem] 
 	 */ 
     public function getItems() { 
 				
     }
 			
-	/**
-	 * @brief Associates an additional user with the ToDoList.
-	 *
-	 * Needs a user as argument and gives him access to the ToDoList. 
+    /**
+     * @brief Associates an additional user with the ToDoList.
+     *
+     * Needs a user as argument and gives him access to the ToDoList. 
      *
      * @return $this
 	 */ 		
@@ -96,10 +96,10 @@ class ToDoList {
 				 
     }
 			
-	/**
-	 * @brief Removes access to the ToDoList for a user.
-	 *
-	 * Needs user as argument and forbids her to access the ToDoList. 
+    /**
+     * @brief Removes access to the ToDoList for a user.
+     *
+     * Needs user as argument and forbids her to access the ToDoList. 
      *
      * @return $this
 	 */ 		
