@@ -1,38 +1,120 @@
+<?php
+
 /**
 * @file User.php
 *
 * @brief Contains the class "User" and defines its structure and behaviour.
 */
 
-<?php
-
+/**
+ * @class User 
+ *
+ * @brief A User represents a person that has access via its account.
+ *
+ * The User-class is the class that represents the person accessing the system.
+ * 0, 1 or multiple ToDoLists can be associated with a User. A Users rights and
+ * settings are regulated by this class.
+ */
 class User {
-	
-	public function __construct ($username, $password, $email) # wie verfahren wir an der Stelle mit Verschlüsselung für Mail und Passwort? Und wie realisiert sich der Unterschied zwischen neuem Account anlegen und zB einloggen?
+	/**
+	 * @brief This is the constructor function of the User-class
+	 *
+	 * The construct-function needs 1 username, 1 password and 1 email as 
+     * arguments to be executed and create a new User-object. 
+     *
+     * @param string         $username
+     * @param [Password]     $password
+     * @param [EMail]        $email
+	 */ 
+	public function __construct ($username, $password, $email)
 	
 	}
 	
+	/**
+	* @brief Getter for the Username of a User-object.
+	*
+	* The getUsername-function returns the Username of a User-object.
+    *
+    * @return string 
+	*/ 	
 	public function getUsername () {
 		
 	}
-	
-	public function changeEmail ($email) {
-		
-	}
-	
-	public function getEmail ($email) { # getPassword wirkt auf mich fehl am Platz, nicht sicher obs bei mail das gleiche is
-		
-	}
-	
-	public function forgotEmail () {
-		
-	}
-	
-	public function forgotPassword () {
-		
-	}
-	
-	public function changePassword ($password) {
-		
-	}
+}
+
+/**
+ * @class UserID
+ *
+ * @brief Represents an id of a User.
+ *
+ * Wraps around integer.
+ */
+class UserId {
+    protected $id; // int    
+
+    /**
+     * @param int $id
+     */
+    public function __construct($id) {
+        // ToDo: insert type check on id
+        $this->id = $id;
+    }
+
+    /**
+     * @brief Get the wrapped integer value.
+     */
+    public function value() {
+        return $this->id;
+    } 
+}
+
+/**
+ * @class Password
+ *
+ * @brief Class to wrap and access a Users password.
+ *
+ * Wraps around string.
+ */
+class Password {
+    protected $password; // string  
+
+    /**
+     * @param string $password 
+     */
+    public function __construct($password) {
+        $this->password = $password;
+    }
+
+    /**
+     * @brief Get the wrapped string.
+     */
+    public function value() {
+        return $this->password;
+    } 
+}
+
+/**
+ * @class EMail
+ *
+ * @brief Class to wrap and access a Users email.
+ *
+ * Wraps around string.
+ */
+class EMail {
+    protected $email; // string  
+
+    /**
+     * @param string $email 
+     */
+    public function __construct($email) {
+        $this->email = $email;
+    }
+
+    /**
+     * @brief Get the wrapped string.
+     */
+    public function value() {
+        return $this->email;
+    } 
+}
 ?>	
