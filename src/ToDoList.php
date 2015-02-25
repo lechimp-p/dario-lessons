@@ -1,9 +1,10 @@
 <?php
 
 /**
- * @file List.php
+ * @file ToDoList.php
  *
- * @brief Contains the class "ToDoList" and defines its structure and behaviour.
+ * @brief Contains the class "ToDoList" and defines its structure and 
+ * behaviour.
  */
 
 /**
@@ -11,16 +12,17 @@
  *
  * @brief A ToDoList belongs to 1 or multiple users and contains tasks
  *
- * The ToDoList-class is the core class which can be created by a user. It needs
- * a title and tasks can be added, altered or removed from it. It can potentially
- * be accessible to multiple users.
+ * The ToDoList-class is the core class which can be created by a user. It 
+ * needs a title and tasks can be added, altered or removed from it. It can 
+ * potentially be accessible to multiple users.
  */
 class ToDoList { 
     /**
      * @brief This is the constructor function of the ToDoList-class
      *
-     * The construct-function needs 1 or more usernames, 1 title and 0
-     * or more tasks as arguments to be executed and create a new ToDoList-object. 
+     * The construct-function needs 1 ToDoListId, 1 or more usernames, 1 title 
+	 * and 0 or more tasks as arguments to be executed and create a new 
+	 * ToDoList-object. 
      *
 	 * @param [ToDoListId]   $id
      * @param string         $name
