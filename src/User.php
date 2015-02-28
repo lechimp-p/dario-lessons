@@ -27,7 +27,7 @@ class User {
      * @param [Password]     $password
      * @param [EMail]        $email
 	 */ 
-	public function __construct (UserId $id, $username, Password $password, EMail $email)
+	public function __construct (UserId $id, $username, Password $password, EMail $email){
     	
 	}
 	
