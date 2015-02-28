@@ -21,15 +21,15 @@ class ToDoList {
      * @brief This is the constructor function of the ToDoList-class
      *
      * The construct-function needs 1 ToDoListId, 1 or more usernames, 1 title 
-	 * and 0 or more tasks as arguments to be executed and create a new 
-	 * ToDoList-object. 
+     * and 0 or more tasks as arguments to be executed and create a new 
+     * ToDoList-object. 
      *
-	 * @param [ToDoListId]   $id
+     * @param ToDoListId     $id
      * @param string         $name
-     * @param [ToDoItem]     $items
-     * @param [User]         $users
-	 */ 
-    public function __construct(ToDoListId $id, $name, $items, $users) { 
+     * @param Task[]         $tasks
+     * @param User[]         $users 
+     */ 
+    public function __construct(ToDoListId $id, $name, $tasks, $users) { 
 			
     }
 	
@@ -41,7 +41,7 @@ class ToDoList {
      *
      * @param string    $title
      * @return $this
-	 */ 		
+     */ 		
     public function setName($title) { 
 				
     }
@@ -52,7 +52,7 @@ class ToDoList {
      * The getName-function returns the title of a ToDoList-object.
      *
      * @return string 
-	 */ 	
+     */ 	
     public function getName() { 
 				
     }
@@ -64,7 +64,7 @@ class ToDoList {
      * defined by these arguments to a ToDoList.
      *
      * @return $this
-	 */ 	
+     */ 	
     public function addItem(ToDoItem $item) { 
         			
     }
@@ -73,7 +73,7 @@ class ToDoList {
      * @brief Removes an item from a ToDoList.
      *
      * @return $this
-	 */ 
+     */ 
     public function removeItem(ToDoItem $itemID) { 
 				
     }
@@ -82,7 +82,7 @@ class ToDoList {
      * @brief Returns the items of a ToDoList. 
      *
      * @return [ToDoItem] 
-	 */ 
+     */ 
     public function getItems() { 
 				
     }
@@ -93,7 +93,7 @@ class ToDoList {
      * Needs a user as argument and gives him access to the ToDoList. 
      *
      * @return $this
-	 */ 		
+     */ 		
     public function addUser(User $user) { 
 				 
     }
@@ -104,7 +104,7 @@ class ToDoList {
      * Needs user as argument and forbids her to access the ToDoList. 
      *
      * @return $this
-	 */ 		
+     */ 		
     public function removeUser(User $username) { 
 				
     }		

@@ -1,10 +1,10 @@
 <?php
 
 /**
-* @file User.php
-*
-* @brief Contains the class "User" and defines its structure and behaviour.
-*/
+ * @file User.php
+ *
+ * @brief Contains the class "User" and defines its structure and behaviour.
+ */
 
 /**
  * @class User 
@@ -16,31 +16,90 @@
  * settings are regulated by this class.
  */
 class User {
-	/**
-	 * @brief This is the constructor function of the User-class
-	 *
-	 * The construct-function needs 1 UserId, 1 username, 1 password and 1 email
-	 * as arguments to be executed and create a new User-object. 
+    /**
+     * @brief This is the constructor function of the User-class
      *
-	 * @param [UserId]       $id
+     * The construct-function needs 1 UserId, 1 username, 1 password and 1 email
+     * as arguments to be executed and create a new User-object.
+     *
+     * @param UserId         $id
      * @param string         $username
-     * @param [Password]     $password
-     * @param [EMail]        $email
-	 */ 
-	public function __construct (UserId $id, $username, Password $password, EMail $email)
+     * @param Password       $password
+     * @param EMail          $email
+     */ 
+    public function __construct(UserId $id, $username, Password $password, EMail $email)
     	
-	}
+    }
 	
-	/**
-	* @brief Getter for the Username of a User-object.
-	*
-	* The getUsername-function returns the Username of a User-object.
-    *
-    * @return string 
-	*/ 	
-	public function getUsername () {
+    /**
+     * @brief Getter for the Username of a User-object.
+     *
+     * The getUsername-function returns the Username of a User-object.
+     *
+     * @return string 
+     */ 	
+    public function getUsername() {
 		
-	}
+    }
+    
+    /**
+     * @brief Setter for the Username of a User-object.
+     *
+     * The setUsername-function needs a username as argument and assigns it to the 
+     * User-object.
+     *
+     * @param  string   $username
+     * @return $this
+     */ 
+    public function setUsername($username) {
+        
+    }
+    
+    /**
+     * @brief Getter for the EMail of a User-object.
+     *
+     * The getEMail-function returns the EMail of a User-object.
+     *
+     * @return string (??)
+     */ 	    
+    public function getEMail() {
+        
+    }
+    
+    /**
+     * @brief Setter for the EMail of a User-object.
+     *
+     * The setEMail-function needs an EMail-object as argument and assigns its value to the User-object.
+     *
+     * @param  EMail   $email    
+     * @return $this
+     */ 	    
+    public function setEMail(EMail $email) {
+        
+    }
+    
+    /**
+     * @brief Getter for the Password of a User-object.
+     *
+     * The getPassword-function returns the Password of a User-object.
+     *
+     * @return string (??)
+     */ 	    
+    public function getPassword() {
+        
+    }   
+
+    /**
+     * @brief Setter for the Password of a User-object.
+     *
+     * The setPassword-function needs a Password-object as argument and assigns its value to the User-object.
+     *
+     * @param  Password   $password    
+     * @return $this
+     */ 	    
+    public function setPassword(Password $password) {
+        
+    }    
 }
 
 /**
