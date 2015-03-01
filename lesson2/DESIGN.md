@@ -76,7 +76,7 @@ class ProductionEnvironment implements Environment {
 * has nouns and verbs to talk about the original problem
 
 * class **User** represents a user
-* class **Task** represents an item on a todo list
+* class **Task** represents an task on a todo list
 * class **ToDoList** represents a todo list
 * for each class a **storage interface** is defined, that supports CRUD ops
 
