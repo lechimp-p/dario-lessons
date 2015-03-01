@@ -13,16 +13,12 @@
  * @brief This Interface is implemented by the "ToDoList" class.
  *
  */
-interface ToDoListInterface {
-    public function listTasks() { // wirkt auf mich als könnte es nützlich sein
-        
-    }
-    
+interface ToDoListInterface { 
     public function createList() {
         
     }
     
-    public function openList() {
+    public function readList() {
         
     }
     
