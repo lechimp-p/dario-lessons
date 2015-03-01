@@ -12,8 +12,8 @@
  * @brief A Task is the atomic element of a ToDoList.
  *
  * The Task-class is the class that represents the the tasks that have been
- * entered on 1 or multiple ToDoLists. A Task is further described via 0, 1 or
- * multiple detail-arguments and 0 or 1 progress-argument.
+ * entered on one or multiple ToDoLists. A task has a description and detailed
+ * description attached to it. It also has a progress.
  */
 class Task {
     /**
@@ -24,11 +24,11 @@ class Task {
      * Task-object. 
      *
      * @param TaskId       $id
-     * @param string       $task
-     * @param string[]     $detail
+     * @param string       $desc
+     * @param string       $detail
      * @param Progress     $progress
      */ 	
-    public function __construct(TaskId $id, $task, $detail, Progress $progress) {
+    public function __construct(TaskId $id, $desc, $detail, Progress $progress) {
 		
     }
 	
