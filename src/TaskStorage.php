@@ -2,18 +2,16 @@
 /**
  * @file TaskStorage.php
  *
- * @brief Contains the interface "TaskInterface" which defines a set of 
- * functions demanded to be defined for every Task. These functions 
- * represent a CRUD approach.
+ * @brief Contains the interface "TaskStorage".
  */
 
 /**
  * @interface TaskStorage 
  *
- * @brief This Interface is implemented by the "Task" class.
+ * @brief This Interface contains a set of methods to do CRUD on Tasks.
  *
  */
-interface TaskInterface { 
+interface TaskStorage { 
     public function createTask() {
         
     }

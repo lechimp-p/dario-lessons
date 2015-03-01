@@ -2,18 +2,16 @@
 /**
  * @file UserStorage.php
  *
- * @brief Contains the interface "UserInterface" which defines a set of 
- * functions demanded to be defined for every User. These functions 
- * represent a CRUD approach.
+ * @brief Contains the interface "UserStorage".
  */
 
 /**
  * @interface UserStorage 
  *
- * @brief This Interface is implemented by the "User" class.
+ * @brief This Interface contains a set of methods to do CRUD on Users.
  *
  */
-interface UserInterface { 
+interface UserStorage { 
     public function createUser() {
         
     }
