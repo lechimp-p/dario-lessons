@@ -85,3 +85,6 @@ But now: CODING!! WEEEEEEEEEEEEEEEEEEE!
 * Write the two missing classes in the same style as the ToDoList class. Remind
   yourself of commiting your changes frequently. Push your changes to GitHub.
   Call me.
+* Write the Storage-interfaces. Push them to GitHub. Call me.
+* Check, whether the PHP-interpreter likes your files. Modify them, until the
+  interpreter shows no more errors.
