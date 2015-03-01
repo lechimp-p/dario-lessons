@@ -1,6 +1,6 @@
 # Datamodel
 
-User | (m:n) | ToDoList | (m:n) | Item
+User | (m:n) | ToDoList | (m:n) | Task
 -----|-------|----------|-------|---------
 username (string, unique) || title (string) || task (string)
 password (string) || || details (string, nullable)
@@ -76,7 +76,7 @@ class ProductionEnvironment implements Environment {
 * has nouns and verbs to talk about the original problem
 
 * class **User** represents a user
-* class **Item** represents an item on a todo list
+* class **Task** represents an item on a todo list
 * class **ToDoList** represents a todo list
 * for each class a **storage interface** is defined, that supports CRUD ops
 
