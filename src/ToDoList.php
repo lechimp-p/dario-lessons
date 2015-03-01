@@ -58,32 +58,31 @@ class ToDoList {
     }
 		
     /**
-     * @brief Adds a new task to a ToDoList.
+     * @brief Add a new task to a ToDoList.
      *
-     * The addItem-function needs 1 task as argument, It adds the Item 
-     * defined by these arguments to a ToDoList.
-     *
+     * @param $task Task
      * @return $this
      */ 	
-    public function addItem(ToDoItem $item) { 
+    public function addTask(Task $task) { 
         			
     }
 	
     /**
-     * @brief Removes an item from a ToDoList.
+     * @brief Removes a task from the ToDoList.
      *
+     * @param $taskTask
      * @return $this
      */ 
-    public function removeItem(ToDoItem $itemID) { 
+    public function removeTask(Task $task) { 
 				
     }
 	
     /**
-     * @brief Returns the items of a ToDoList. 
+     * @brief Returns the tasks on the ToDoList. 
      *
-     * @return [ToDoItem] 
+     * @return Task[]
      */ 
-    public function getItems() { 
+    public function getTasks() { 
 				
     }
 			
@@ -105,14 +104,14 @@ class ToDoList {
      *
      * @return $this
      */ 		
-    public function removeUser(User $username) { 
+    public function removeUser(User $user) { 
 				
     }		
 
     /**
      * @brief Get all users who can access this list.
      *
-     * @return [User]
+     * @return User[]
      */
     public function getUsers() {
 
