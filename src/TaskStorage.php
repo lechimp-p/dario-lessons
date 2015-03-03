@@ -12,20 +12,13 @@
  *
  */
 interface TaskStorage { 
-    public function createTask() {
-        
-    }
+    public function createTask();
     
-    public function readTask() {
-        
-    }
+    public function readTask();
     
-    public function deleteTask() {
-        
-    }
+    public function deleteTask();
     
-    public function updateTask() {
-        
-    }
+    public function updateTask();
+
 }
 ?>

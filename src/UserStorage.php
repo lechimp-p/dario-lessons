@@ -12,20 +12,13 @@
  *
  */
 interface UserStorage { 
-    public function createUser() {
-        
-    }
+    public function createUser(); 
     
-    public function readUser() {
+    public function readUser(); 
+            
+    public function deleteUser(); 
         
-    }
-    
-    public function deleteUser() {
-        
-    }
-    
-    public function updateUser() {
-        
-    }
+    public function updateUser(); 
+            
 }
 ?>

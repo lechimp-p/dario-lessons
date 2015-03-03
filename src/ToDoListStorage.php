@@ -12,20 +12,13 @@
  *
  */
 interface ToDoListStorage { 
-    public function createList() {
-        
-    }
+    public function createList();
     
-    public function readList() {
-        
-    }
+    public function readList();
     
-    public function deleteList() {
-        
-    }
+    public function deleteList();
     
-    public function updateList() {
-        
-    }
+    public function updateList();
+
 }
 ?>
