@@ -60,7 +60,7 @@ class User {
      *
      * The getEMail-function returns the EMail of a User-object.
      *
-     * @return string (??)
+     * @return EMail
      */ 	    
     public function getEMail() {
         
@@ -83,7 +83,7 @@ class User {
      *
      * The getPassword-function returns the Password of a User-object.
      *
-     * @return string (??)
+     * @return Password
      */ 	    
     public function getPassword() {
         
