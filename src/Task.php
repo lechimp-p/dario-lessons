@@ -154,5 +154,9 @@ class Progress {
     public function __construct($progress) {
         $valid = is_int($progress) && $progress <= 100 && $progress >= 0;
     }
+    
+    public function value() {
+        return $this->progress;
+    } 
 }
 ?>
