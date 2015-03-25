@@ -1,29 +1,5 @@
 <?php
-require_once(/../src/User.php); // why not ./../src/User.php ??
-
-class UserIDTest extends PHPUnit_Framework_TestCase {
-    public function testCanUseUserID() {
-        $horstID = new UserID(1337);
-        
-        $this->assertEquals(1337, $horstID->value());
-    }
-}    
-    
-class PasswordTest extends PHPUnit_Framework_TestCase {
-    public function testCanUsePassword() {
-        $horstPass = new Password('peter');
-        
-        $this->assertEquals('peter', $horstPass->value());
-    }
-}
-    
-class EMailTest extends PHPUnit_Framework_TestCase {
-    public function testCanUseEMail() {
-        $horstEMail = new EMail('horst@wurst.peter');
-        
-        $this->assertEquals('horst@wurst.peter', $horstEMail->value());
-    }
-}
+require_once(/../src/User.php);
 
 class UserTest extends PHPUnit_Framework_TestCase {
     $horstID = new UserID(1000);
