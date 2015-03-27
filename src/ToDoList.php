@@ -24,12 +24,12 @@ class ToDoList {
      * and 0 or more tasks as arguments to be executed and create a new 
      * ToDoList-object. 
      *
-     * @param ToDoListId     $id
+     * @param ToDoListID     $id
      * @param string         $name
      * @param Task[]         $tasks
      * @param User[]         $users 
      */ 
-    public function __construct(ToDoListId $id, $name, $tasks, $users) { 
+    public function __construct(ToDoListID $id, $name, $tasks, $users) { 
 			
     }
 	
@@ -125,7 +125,7 @@ class ToDoList {
  *
  * Wraps around integer.
  */
-class ToDoListId {
+class ToDoListID {
     protected $id; // int    
 
     /**
