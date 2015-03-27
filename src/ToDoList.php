@@ -29,7 +29,8 @@ class ToDoList {
      * @param Task[]         $tasks
      * @param User[]         $users 
      */ 
-    public function __construct(ToDoListID $id, $name, $tasks, $users) { 
+    public function __construct(ToDoListID $id, $name, Task $tasks, User $users) { 
+    // warum waren hier keine classen verlangt? (Task & User) Wegen array?
 			
     }
 	
