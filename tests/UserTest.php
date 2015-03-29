@@ -10,6 +10,10 @@ class UserTest extends PHPUnit_Framework_TestCase {
     
     $horst = new User($horstID, 'Horst1984', $horstPass, $horstEMail);
     
+    $newPass = new Password('qwertz');
+    
+    $newEMail = new EMail('a@b.c');
+    
     public function testGetUsername() {        
         $this->assertEquals('Horst1984', $horst->getUsername());
     }
@@ -25,17 +29,17 @@ class UserTest extends PHPUnit_Framework_TestCase {
     public function testSetUsername() { 
         $this->setUsername('HeMan666');
         
-        $this->assertEquals('HeMan666', $horst->getUsername()->value());
+        $this->assertEquals('HeMan666', $horst->getUsername());
     }
     
-    public function testSetPassword() {
-        $newPass = new Password('qwertz');
+    public function testSetPassword() {       
+        $this->setPassword($newPass);
         
         $this->assertEquals('qwertz', $horst->getPassword()->value());
     }
     
     public function testSetEMail() {
-        $newEMail = new EMail('a@b.c');
+        $this->setEMail($newEMail);
         
         $this->assertEquals('a@b.c', $horst->getEMail()->value());
     }
