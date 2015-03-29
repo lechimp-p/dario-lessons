@@ -69,7 +69,8 @@ class User {
     /**
      * @brief Setter for the EMail of a User-object.
      *
-     * The setEMail-function needs an EMail-object as argument and assigns its value to the User-object.
+     * The setEMail-function needs an EMail-object as argument and assigns its
+     * value to the User-object.
      *
      * @param  EMail   $email    
      * @return $this

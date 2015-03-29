@@ -1,5 +1,5 @@
 <?php
-require_once(/../src/User.php);
+require_once(./src/User.php);
 
 class UserTest extends PHPUnit_Framework_TestCase {
     $horstID = new UserID(1000);

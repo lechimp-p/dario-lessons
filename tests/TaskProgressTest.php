@@ -1,5 +1,5 @@
 <?php
-require_once(/../src/Task.php); 
+require_once(./src/Task.php); 
 
 class TaskProgressTest extends PHPUnit_Framework_TestCase {
     $howFarIsHorst = new Progress(46);

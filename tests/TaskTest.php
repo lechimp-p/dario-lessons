@@ -1,5 +1,5 @@
 <?php
-require_once(/../src/Task.php);
+require_once(./src/Task.php);
 
 class TaskTest extends PHPUnit_Framework_TestCase {
     $leTaskID = new TaskID(1234);

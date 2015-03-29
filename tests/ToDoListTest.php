@@ -1,5 +1,5 @@
 <?php
-require_once(/../src/ToDoList.php);
+require_once(./src/ToDoList.php);
 
 class ToDoListTest extends PHPUnit_Framework_TestCase {
     $taskID = new TaskID(900);
@@ -33,8 +33,6 @@ class ToDoListTest extends PHPUnit_Framework_TestCase {
     $leUser = new User($userID, 'Emma W.', $pass, $email);
     
     $cannonFodder = new User($secondUserID, 'some guy', $altPass, $shmeeMail);
-    
-    
     
     $leList = new ToDoList($listID, 'List Dummy', $leTask, $leUser);
     
