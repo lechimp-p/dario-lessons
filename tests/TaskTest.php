@@ -2,40 +2,40 @@
 require_once(./src/Task.php);
 
 class TaskTest extends PHPUnit_Framework_TestCase {
-    $leTaskID = new TaskID(1234);
-    
-    $leProgress = new Progress(42);
-    
-    $becomeBestProgrammer = new Task($leTaskID, '2ez', 'super secret', $leProgress);
+    public function setUp() {
+        $this->leTaskID = new TaskID(1234);   
+        $this->leProgress = new Progress(42);   
+        $this->becomeBestProgrammer = new Task($leTaskID, '2ez', 'super secret', $leProgress);
+    }
     
     public function testGetDescription() {
-        $this->assertEquals('2ez', $becomeBestProgrammer->getTitle());
+        $this->assertEquals('2ez', $this->becomeBestProgrammer->getTitle());
     }
     
     public function testSetDescription() {
-        $this->setTitle('cant tell');
+        $this->becomeBestProgrammer->setTitle('cant tell');
         
-        $this->assertEquals('cant tell', $becomeBestProgrammer->getTitle());
+        $this->assertEquals('cant tell', $this->becomeBestProgrammer->getTitle());
     }
     
     public function testGetDetail() {
-        $this->assertEquals('super secret', $becomeBestProgrammer->getDetail());
+        $this->assertEquals('super secret', $this->becomeBestProgrammer->getDetail());
     }
     
     public function testSetDetail() {
-        $this->setDetail('watch me');
+        $this->becomeBestProgrammer->setDetail('watch me');
         
-        $this->assertEquals('watch me', $becomeBestProgrammer->getDetail());
+        $this->assertEquals('watch me', $this->becomeBestProgrammer->getDetail());
     }
     
     public function testGetProgress() {
-        $this->assertEquals(42, $becomeBestProgrammer->getProgress->value());
+        $this->assertEquals(42, $this->becomeBestProgrammer->getProgress->value());
     }
     
     public function testSetProgress() {
-        $this->setProgress(43);
+        $this->becomeBestProgrammer->setProgress(43);
         
-        $this->assertEquals(43, $becomeBestProgrammer->getProgress->value());
+        $this->assertEquals(43, $this->becomeBestProgrammer->getProgress->value());
     }
 }  
 ?>  

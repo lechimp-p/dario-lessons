@@ -30,13 +30,13 @@ class UserTest extends PHPUnit_Framework_TestCase {
     }
     
     public function testSetPassword() {       
-        $this->setPassword($this->newPass);
+        $this->horst->setPassword($this->newPass);
         
         $this->assertEquals('qwertz', $this->horst->getPassword()->value());
     }
     
     public function testSetEMail() {
-        $this->setEMail($this->newEMail);
+        $this->horst->setEMail($this->newEMail);
         
         $this->assertEquals('a@b.c', $this->horst->getEMail()->value());
     }
