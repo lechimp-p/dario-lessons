@@ -140,7 +140,7 @@ class TaskId {
  */
 class Progress {
     private $progress; // int 0-100
-    private $valid = false;
+    public $valid = false;
     
     /**
      * @brief This is the constructor of a Progress-object.
