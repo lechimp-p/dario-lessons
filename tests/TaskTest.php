@@ -1,11 +1,11 @@
 <?php
-require_once(./src/Task.php);
+require_once('./src/Task.php');
 
 class TaskTest extends PHPUnit_Framework_TestCase {
     public function setUp() {
         $this->leTaskID = new TaskID(1234);   
         $this->leProgress = new Progress(42);   
-        $this->becomeBestProgrammer = new Task($leTaskID, '2ez', 'super secret', $leProgress);
+        $this->becomeBestProgrammer = new Task($this->leTaskID, '2ez', 'super secret', $this->leProgress);
     }
     
     public function testGetDescription() {
@@ -29,13 +29,14 @@ class TaskTest extends PHPUnit_Framework_TestCase {
     }
     
     public function testGetProgress() {
-        $this->assertEquals(42, $this->becomeBestProgrammer->getProgress->value());
+        $this->assertEquals(42, $this->becomeBestProgrammer->getProgress()->value());
     }
     
     public function testSetProgress() {
         $this->becomeBestProgrammer->setProgress(43);
         
-        $this->assertEquals(43, $this->becomeBestProgrammer->getProgress->value());
+        $this->assertEquals(43, $this->becomeBestProgrammer->getProgress()->value());
     }
+    
 }  
 ?>  

@@ -1,5 +1,5 @@
 <?php
-require_once(./src/ToDoList.php);
+require_once('./src/ToDoList.php');
 
 class ToDoListTest extends PHPUnit_Framework_TestCase {
     public function setUp() {
@@ -13,15 +13,15 @@ class ToDoListTest extends PHPUnit_Framework_TestCase {
         
 /////////////////////////////////////////////////////////////        
         
-        $this->leTask = new Task($taskID, 'test0r', 'stuff', $prog);        
-        $this->secondTask = new Task($secondTaskID, 'bla', 'blubb', $secondProg);        
+        $this->leTask = new Task($this->taskID, 'test0r', 'stuff', $this->prog);        
+        $this->secondTask = new Task($this->secondTaskID, 'bla', 'blubb', $this->secondProg);        
         $this->pass = new Password('wurst');        
         $this->altPass = new Password('kaese');        
         $this->email = new EMail('nazi@kommunisten.is');       
         $this->shmeeMail = new EMail('a@b.c');       
-        $this->leUser = new User($userID, 'Emma W.', $pass, $email);      
-        $this->cannonFodder = new User($secondUserID, 'some guy', $altPass, $shmeeMail);      
-        $this->leList = new ToDoList($listID, 'List Dummy', $leTask, $leUser);
+        $this->leUser = new User($this->userID, 'Emma W.', $this->pass, $this->email);      
+        $this->cannonFodder = new User($this->secondUserID, 'some guy', $this->altPass, $this->shmeeMail);      
+        $this->leList = new ToDoList($this->listID, 'List Dummy', $this->leTask, $this->leUser);
     }  
     
     public function testGetName() {
@@ -57,15 +57,15 @@ class ToDoListTest extends PHPUnit_Framework_TestCase {
     }
     
     public function testAddTasks() {
-        $this->lelist->addTask($this->secondTask);
+        $this->leList->addTask($this->secondTask);
         
         $this->assertContains($this->secondTask, $this->leList->getTasks());
     }
     
     public function testRemoveTask() {
-        $this->lelist->removeTask($this->leTask);
+        $this->leList->removeTask($this->leTask);
         
-        $this->lelist->removeTask($this->secondTask);
+        $this->leList->removeTask($this->secondTask);
         
         $this->assertEmpty($this->leList->getTasks());
     }
