@@ -108,6 +108,9 @@ programmers know, that "you never write the tests afterwards" for a lot of reaso
 * Now you should be sure that phpunit runs your test files, finds your test 
   classes and the tests they contain and gives you a proper feedback on the test 
   results.
+* Make sure you understand how your tests will be run and how the setUp method
+  (aka fixture) of a PHPUnit-TestCase object comes into play. What is the purpose
+  of the setUp method? How often will it be called?
 * Write stub methods for all kinds of tests you could imagine for the class you 
   picked. Even write down stuff you think it would be stupid to test. It's ok, 
   if some stubs stand for a group, as we will discuss the stuff you wrote before 
