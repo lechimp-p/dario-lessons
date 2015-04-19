@@ -117,3 +117,13 @@ programmers know, that "you never write the tests afterwards" for a lot of reaso
   actually writing the tests. Be sure that each test either has a name that makes
   absolutely clear what should be tested or an appropriate documentation attached 
   to it. Call me.
+* After we discussed your proposed test, write them in a form where they could be
+  run completely by PHPUnit. This will off course lead to all (expect for, maybe,
+  some trivial) tests to stop with an error or fail.
+* Write tests for all the other classes you have introduced so far in the same
+  way. Afterwards you should be equipped with a lot of failing tests, describing
+  the desired, but not yet implemented, behaviour of the objects of the classes 
+  you have introduced so far.
+* Go on and do the actual implementation of your classes. Start at some point 
+  and make the errors and failures in your tests go away one after another, until 
+  everything behaves as desired.
