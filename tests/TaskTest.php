@@ -29,14 +29,16 @@ class TaskTest extends PHPUnit_Framework_TestCase {
     }
     
     public function testGetProgress() {
-        $this->assertEquals(42, $this->becomeBestProgrammer->getProgress()->value());
+        $progress = $this->becomeBestProgrammer->getProgress();
+        $this->assertNotNull($progress);
+        $this->assertEquals(42, $progress->value());
     }
     
     public function testSetProgress() {
         $this->becomeBestProgrammer->setProgress(43);
-        
-        $this->assertEquals(43, $this->becomeBestProgrammer->getProgress()->value());
+        $progress = $this->becomeBestProgrammer->getProgress();
+        $this->assertNotNull($progress);
+        $this->assertEquals(43, $progress->value());
     }
-    
 }  
 ?>  
